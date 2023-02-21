@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(141, 155, 150);
+    border: 2px solid black;
+}
+
+html {
+    font-size: 14px;
+}
+
+h1 {
+    /* text-align: center; */
+    text-decoration: underline;
+    color: brown;
+    font-size: 1.5em;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+div {
+    height: 20vh;
+    width: 40vw;
+    background-color: pink;
+    text-align: center;
+}
+
+.demo1,
+.demo2,
+.demo3 {
+    /* color: blue; */
+}
+
+div>p {
+    color: yellow;
+}
+
+div+p {
+    color: blue;
+}
+
+.demo5 {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(103, 76, 103);
+    transition: width 2s, height 4s, transform 2s;
+    transition-delay: 1s;
+}
+
+.demo5:hover {
+    width: 300px;
+    height: 300px;
+    transform: rotate(180deg);
+}
